@@ -333,7 +333,7 @@ int main() {
                             }
                             else if (input == "leave") {
                                 system("cls");
-                                gameOver = true; 
+                                exit(0); 
                             }
                             else eraseLines(2);
                         }
@@ -393,4 +393,5 @@ int main() {
     }
 
     return 0;
+
 }
